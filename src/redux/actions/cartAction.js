@@ -1,7 +1,7 @@
 import * as actionTypes from '../constants/cartConstants';
 import axios from 'axios';
 
-const URL = 'http://localhost:8000'
+const URL = 'https://flipkart-back-end.vercel.app/'
 
 export const addToCart = (id, quantity) => async (dispatch) => {
     try { 
